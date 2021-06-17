@@ -52,7 +52,7 @@ def main():
     PAGE, PAR_PAGE, CREATED, STOCKS = "1", "5", "2017-09-20", "5"
     BIGGINER = ["初心者", "初心者向け", "初学者", "プログラミング初心者"]
     tags = ["Python", "Django", "Apache", "Ubuntu", "Linux", "HTML", "CSS",
-            "Bootstrap", "JavaScript", "HTTP", "AI", "GitHub", "Git",
+            "Bootstrap", "JavaScript", "HTTP", "AI", "GitHub", "Git", "VSCode",
             "機械学習", "深層学習"] + BIGGINER
 
     tag = tags[random.randint(0, len(tags)-1)]
